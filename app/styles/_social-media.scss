@@ -1,0 +1,16 @@
+.social-media {
+  font-size: 1.25em;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: left;
+    margin-right: 0.5em;
+    list-style-type: none;
+  }
+  a {
+    color: $black;
+    display: inline-block;
+  }
+}
