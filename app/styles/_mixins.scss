@@ -8,3 +8,10 @@
   display: table;
   clear: both;
 }
+
+@mixin gradient-to-solid-hover($color: $blue) {
+  background: linear-gradient($color, transparent);
+  &:hover {
+    background: $color;
+  }
+}
